@@ -1,0 +1,5 @@
+README
+======
+This simple python app will create a menu in the 
+vein of openbox or fluxbox. Some of the features are 
+dynamic menus, simple menu file syntax, and arbitrary depth recursion.
