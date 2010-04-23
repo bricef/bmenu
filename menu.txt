@@ -1,0 +1,35 @@
+##
+#
+# A menu description format. 
+# This is a comment. 
+# Empty lines ignored too.
+# technically, all lines that do not have [] are ignored.
+# Shamelessly copied from openbox2.
+# http://icculus.org/openbox/2/
+#
+##
+
+[label](Bmenu)
+[exec](firefox){firefox}
+[exec](geany){geany}
+[exec](pidgin){pidgin}
+[exec](term){sakura -f terminal}
+[separator]
+[pipe-menu](pipe-menu){/home/brice/files/code/BrixWM/menu-app/pipe_example.sh}
+[submenu](Net)
+	[exec](firefox){firefox}
+	[exec](emesene){emesene}
+	[submenu](info)
+		[exec](iftop){sakura -f terminal -e "sudo iftop -i wlan0" -h}
+	[/submenu]
+[/submenu]
+[submenu](Office)
+[/submenu]
+[submenu](Util)
+	[exec](Take screenshot){scrot ~/`date +%F`-screenshot.png}
+[/submenu]
+
+
+
+
+
