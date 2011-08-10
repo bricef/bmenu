@@ -61,9 +61,9 @@ Submenus are delimited by <code>\[submenu\](label)</code> and <code>\[/submenu\]
 
 Piped menus must have both label and command. Omission of either will cause a fatal error. Piped menus are what makes bmenu marginally more useful than [dzen2](http://sites.google.com/site/gotmor/dzen) (with the latest update allowing clickable areas), [9menu](http://pwet.fr/man/linux/commandes/9menu), or [dmenu](http://tools.suckless.org/dmenu/). They allow submenus to be dynamically generated from an external script on mouseover. Whenever the pipe-menu is selected, the command is run in the background, and the output of the command on stdout is parsed for bmenu instructions to create the submenu. Any correctly formated bmenu entry is allowed, even other pipe menus. This for example allows you to have your emails accessible from bmenu, or to use bmenu as a filebrowser. 
 
-<span style="color:#ff0000;font-weight:bold">Warning:</span> If the pipe-menu script takes a long time to execute, bmenu will hang until the script has finished. There is no timeout delay. This would make a great feature to add for version 0.2!
+**Warning:** If the pipe-menu script takes a long time to execute, bmenu will hang until the script has finished. There is no timeout delay. This would make a great feature to add for version 0.2!
 
-<span style="color:#ff0000;font-weight:bold">Warning:</span> Bmenu does not check stderr when running a script, and anything written to it is discarded permanently.
+**Warning:** Bmenu does not check stderr when running a script, and anything written to it is discarded permanently.
 
 Ie: It is strongly recommanded that you test your commands before hand, both for the correctness of output statement, as well as for delay problems.
 
