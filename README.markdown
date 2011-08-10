@@ -71,8 +71,6 @@ Todo
 ----
 + Add the ability to pipe menus straight into the root of bmenu (to have a generic popup menu solution)
 + thoroughly document the code and refactor to allow import as module
-+ write a man page
-+ add it to some source revision
 + package it for Arch and shove it on AUR
 + write a converter to convert to-and-from openbox3 menu files
 + add a pipe menu timeout
