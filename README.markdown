@@ -2,7 +2,7 @@ Bmenu
 =====
 _15th January, 2010_
 
-Bmenu is a simple python script that uses the [pygtk](http://www.pygtk.org) library bindings to provide a freestanding menu generated from a simple text file. It allows nested menus to an arbitrary depth, as well as pipe menus in the same way as openbox does. In fact, I wrote it because I missed the Openbox root menu in other window managers (namely [wmii](http://wmii.suckless.org)). It can be bound to a hotkey (using xbindkeys, for example) and called up anywhere. 
+Bmenu is a simple python script that uses the [pygtk](http://www.pygtk.org) library bindings to provide a freestanding menu generated from a simple text file. It allows nested menus to an arbitrary depth, as well as pipe menus in the same way as openbox does. In fact, I wrote it because I missed the Openbox root menu in other window managers (namely [wmii](http://wmii.suckless.org)). It can be bound to a hotkey (using [xbindkeys](http://wiki.archlinux.org/index.php/Xbindkeys), for example) and called up anywhere. 
 
 Download
 --------
@@ -77,6 +77,3 @@ Todo
 + write a converter to convert to-and-from openbox3 menu files
 + add a pipe menu timeout
 + add a log to keep errors
-
-
-[^1]: To use xbindkeys, see [here](http://wiki.archlinux.org/index.php/Xbindkeys).
