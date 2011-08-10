@@ -6,15 +6,11 @@ Bmenu is a simple python script that uses the [pygtk](http://www.pygtk.org) libr
 
 Download
 --------
-Version 0.1 of Bmenu is available:
-
-[bmenu-0.1.tar.gz](http://bricefernandes.com/downloads/projects/bmenu-0.1.tar.gz) 91K
-
-[bmenu-0.1.zip](http://bricefernandes.com/downloads/projects/bmenu-0.1.zip) 91K
-
-You can also clone it from github: 
+You can clone it from github: 
     
     > git clone git://github.com/bricef/bmenu.git bmenu
+
+Or download it using the download button above.
 
 Install/Use
 -----------
