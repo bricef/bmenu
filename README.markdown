@@ -25,7 +25,7 @@ The menu.txt file
 -----------------
 The menu file takes its format from the openbox2 menu description format. In it can be described actions, submenus, separators, labels and pipemenus. Only lines that have a valid menu item description are taken into account. The pound '#' sign can also be used to denote a comment, or to comment out a well formed entry. The parser is rather forgiving, and freetext, empty lines, and unknown items will simply be ignored.
 
-In general, each entry takes the form <code>\[action\]\(label\){command.to.execute}</code>. The label will be displayed in the menu, and cannot contain any parenthesis, (I cannot be bothered with adding the neccessary code). If you feel that this would be neccessary, feel free to add it yourself and [let me know](http://bricefernandes.com/contact.html), as I would be happy to add your changes. The command to execute may contain any charater between the curly braces (including curly braces), since the regular expression used is greedy.
+In general, each entry takes the form <code>\[action\]\(label\){command.to.execute}</code>. The label will be displayed in the menu, and cannot contain any parenthesis, (I cannot be bothered with adding the neccessary code). The command to execute may contain any charater between the curly braces (including curly braces), since the regular expression used is greedy.
  
 ###Labels and separators.
 
